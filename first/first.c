@@ -209,9 +209,6 @@ void populate(unsigned long int tag, Set* ptr, char* policy){
 			if(i == 0 && strcmp(policy, "fifo") == 0){
 				ptr->evictPtr = 0;
 			}
-			/*else if(strcmp(policy, "lru") == 0){
-				ptr->blocks[i].usage++;
-			}*/
 			return;
 		}
 	}
